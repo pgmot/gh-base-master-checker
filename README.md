@@ -1,7 +1,5 @@
 # Chrome Extension TypeScript Starter
 
-[![Build Status](https://travis-ci.org/chibat/gh-base-master-checker.svg?branch=master)](https://travis-ci.org/chibat/gh-base-master-checker)
-
 Chrome Extension, TypeScript and Visual Studio Code
 
 ## Prerequisites
