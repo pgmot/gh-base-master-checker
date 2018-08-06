@@ -1,5 +1,7 @@
 # Chrome Extension TypeScript Starter
 
+[![CircleCI](https://circleci.com/gh/pgmot/gh-base-master-checker/tree/master.svg?style=svg)](https://circleci.com/gh/pgmot/gh-base-master-checker/tree/master)
+
 Chrome Extension, TypeScript and Visual Studio Code
 
 ## Prerequisites
