@@ -1,6 +1,10 @@
 
 import * as $ from 'jquery';
 
+function isOpenPullRequest(): boolean {
+    return $('div.State.State--green').length > 0;
+}
+
 function isBaseBranchMaster(): boolean {
     return $('span.base-ref > span')[0].textContent === "master";
 };
@@ -20,6 +24,10 @@ $(document).on('DOMNodeInserted', () => {
     const urlRegexp = /https:\/\/github\.com\/(.*)\/pull\//;
 
     if (!location.href.match(urlRegexp)) {
+        return;
+    }
+
+    if (!isOpenPullRequest()) {
         return;
     }
 

@@ -1,29 +1,15 @@
-# Chrome Extension TypeScript Starter
+# Github Base Master Checker
 
 [![CircleCI](https://circleci.com/gh/pgmot/gh-base-master-checker/tree/master.svg?style=svg)](https://circleci.com/gh/pgmot/gh-base-master-checker/tree/master)
 
-Chrome Extension, TypeScript and Visual Studio Code
+You can avoid merge accident that merge into other branches than master.
 
-## Prerequisites
+![screenshot.png](./img/screenshot.png)
 
-* [node + npm](https://nodejs.org/) (Current Version)
+## How to install
 
-## Option
-
-* [Visual Studio Code](https://code.visualstudio.com/)
-
-## Includes the following
-
-* TypeScript
-* Webpack
-* Moment.js
-* jQuery
-* Example Code
-    * Chrome Storage
-    * Options Version 2
-    * content script
-    * count up badge number
-    * background
+1. download from release
+2. D&D to chrome in `chrome://extensions/`
 
 ## Project Structure
 
@@ -36,10 +22,6 @@ Chrome Extension, TypeScript and Visual Studio Code
 ```
 npm install
 ```
-
-## Import as Visual Studio Code project
-
-...
 
 ## Build in watch mode
 
